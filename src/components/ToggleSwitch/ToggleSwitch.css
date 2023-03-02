@@ -1,0 +1,31 @@
+.uz-piu-toggle {
+  position: relative;
+  width: var(--size);
+  height: calc(var(--size) / 2);
+  border: none;
+  border-radius: calc(var(--size) / 4);
+  box-shadow: #32325d1a 0px 30px 60px -12px inset;
+}
+
+.uz-piu-toggle::before {
+  content: "";
+  position: absolute;
+  top: calc(calc(calc(var(--size) / 2) - calc(var(--size) * 40 / 100)) / 2);
+  left: calc(calc(calc(var(--size) / 2) - calc(var(--size) * 40 / 100)) / 2);
+  width: calc(var(--size) * 40 / 100);
+  height: calc(var(--size) * 40 / 100);
+  background-color: var(--handleColor, #ffffff);
+  border-radius: 50%;
+  transition: var(--speed, 0.3s);
+}
+
+.uz-piu-toggle-on {
+  background-color: #25c625;
+}
+
+.uz-piu-toggle-on::before {
+  left: calc(
+    100% - calc(var(--size) * 40 / 100) -
+      calc(calc(calc(var(--size) / 2) - calc(var(--size) * 40 / 100)) / 2)
+  );
+}
