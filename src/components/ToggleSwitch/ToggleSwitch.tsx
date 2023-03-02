@@ -3,7 +3,7 @@ import "./ToggleSwitch.css";
 
 interface IToggleSwitch {
   onToggle: () => void;
-  isChecked: boolean;
+  isChecked?: boolean;
   onColor?: string;
   offColor?: string;
   handleColor?: string;
