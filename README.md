@@ -1,5 +1,7 @@
 A modern, minimal, clean, and customizable toggle-switch component for React
 
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmNlMzU4MzgzM2VmZTlhOTJhZmNjYjA2Njc2YWRkNzBiZTIzNzVlZiZjdD1n/BbqXo96g5aG9gBf08f/giphy.gif" />
+
 <img src="https://media.giphy.com/media/BIbZ6jTNcuohvvfJca/giphy.gif" />
 
 - **Easy to Use** Start using right away!
