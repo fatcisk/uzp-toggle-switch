@@ -20,7 +20,7 @@ export default function ToggleSwitch({
   size,
   speed,
 }: IToggleSwitch) {
-  const [state, setState] = useState(false);
+  const [state, setState] = useState(isChecked);
 
   const handleToggle = () => {
     setState(!state);
@@ -30,9 +30,7 @@ export default function ToggleSwitch({
   return (
     <button
       onClick={handleToggle}
-      className={`uz-piu-toggle ${
-        (isChecked && "uz-piu-toggle-on") || (state && "uz-piu-toggle-on")
-      }`}
+      className={`uz-piu-toggle ${state && "uz-piu-toggle-on"}`}
       style={
         {
           backgroundColor: state ? onColor : offColor,
