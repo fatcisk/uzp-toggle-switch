@@ -1,7 +1,11 @@
 {
   "name": "uzp-toggle-switch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A modern, minimal, clean, and customizable toggle-switch component for React",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzayapiu/uzp-toggle-switch.git"
+  },
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs"
   },

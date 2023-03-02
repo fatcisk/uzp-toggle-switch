@@ -34,6 +34,7 @@ const Example = () => {
 | Prop        | Type     | Default      | Description                                                                                     |
 | ----------- | -------- | ------------ | ----------------------------------------------------------------------------------------------- |
 | onToggle    | function | **Required** | The function passed to this prop will be execuded when users toggle the button.                 |
+| isChecked   | bool     | false        | If this value is true, toggle will be on.                                                       |
 | size        | string   | "80px"       | The height of the toggle. The width is calculated automatically based on the height.            |
 | onColor     | string   | "#25c625"    | The backgroud color of the toggle button when it is switched on.                                |
 | offColor    | string   | "#ffffff"    | The backgroud color of the toggle button when it is switched off.                               |
