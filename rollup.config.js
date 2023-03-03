@@ -26,7 +26,7 @@ export default [
     plugins: [
       resolve(),
       commonjs(),
-      typescript({ tsconfig: "./tsconfig.json" }),
+      typescript({ sourceMap: false, tsconfig: "./tsconfig.json" }),
 
       // NEW
       postcss(),
